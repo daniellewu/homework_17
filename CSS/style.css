@@ -1,0 +1,190 @@
+.NavigationBar {
+    display: grid;
+    grid-template-columns: 80% max-content max-content max-content;
+    padding: 15px;
+    font-family: "open-sans";
+}
+
+.navbarDWu {
+    font-weight: bold;
+    padding: 20px;
+    padding-bottom: 15px;
+    font-family: "Open Sans", "PT Sans", "San Serif";
+}
+
+.navbarHome, .navbarAbout, .navbarWork {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: right;
+    padding: 15px;
+    font-family: "Open Sans", "PT Sans", "San Serif";
+}
+
+.navbarAbout {
+    color: lightslategray;
+}
+
+body {
+    font-family: "Open Sans", "PT Sans", "San Serif";
+    font-size: 18px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    padding: 30px;
+
+}
+
+.about ul {
+    line-height: 2;
+    
+}
+
+h1 {
+    font-family: "Open Sans", "PT Sans", "San Serif";
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 0px;
+    
+}
+
+h1::after {
+    width: 200px;
+    height: 2px;
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    margin: 0 0 10px 10px;
+}
+
+#linkedin, #gmail, #instagram {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 27px;
+    height: 27px;
+    margin: 10px;
+    float: right;
+}
+
+.recipezeInfo-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 30px;
+    padding: 30px;
+}
+
+.foodPhoto1 img {
+    float: right;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+
+.recipezeInfo h2 {
+    font-family: "SF Pro Rounded";
+    font-size: 78px;
+    display: bold;
+    align-content: left;
+    padding-left: 70px;
+}
+
+.problemInfo h2 {
+    margin-top: 0px;
+
+}
+
+.problem-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    column-gap: 30px;
+    padding: 30px;
+}
+
+.foodPhoto2 img {
+    width: 100%;
+}
+.userResearch h2 {
+    text-align: center;
+
+}
+
+.userResearch p {
+    padding: 30px
+}
+
+.diagram-persona-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.design h2 {
+    text-align: center;
+
+}
+
+.design p {
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+.design ol {
+    line-height: 2;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.iphoneImages {
+    display: grid;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.nextSteps-Container h2 {
+    text-align: center;
+
+}
+
+.nextSteps-Container p {
+    padding: 30px;
+    margin-bottom: 0px;
+}
+
+.nextSteps-Container a {
+    text-align: center;
+    color: #F88C10;
+    
+    
+}
+
+.nextSteps-Container a:hover {
+color: plum;
+}
+
+@media only screen and (max-width: 400px) {
+    .photo {
+        float: center;
+        width: 1000px;
+        height: 300px;
+        overflow: hidden;
+    }
+    .about {
+        grid-column: 1/1;
+        grid-row: 2/2;
+        padding: 30px, 30px, 30px, 30px;
+    }
+    #DWu {
+        width: 100%;
+        height: auto;
+
+    }
+  }
